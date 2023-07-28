@@ -1,0 +1,661 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background: linear-gradient(to left top, rgb(255, 94, 0), yellow);
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+#toggle{
+    display: none;
+   color: white;
+   font-size: 23px;
+}
+
+#user-mobile{
+    display: none;
+}
+#user-mobile a{
+    color: white;
+    padding: 5px 10px;
+    max-width: 56px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: orange;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+#nav2{
+    display: none;
+}
+.logo_are {
+    display: none;
+    /* padding: 10px; */
+    font-size: 20px;
+    cursor: pointer;
+}
+.videoo{
+    display: none;
+}
+.inner_main_menu {
+    margin: 0 auto;
+    width: 1170px;
+    list-style: none;
+}
+
+.inner_main_menu ul {
+    margin: 0;
+    padding: 0px 80px;
+    list-style: none;
+    text-align: right;
+}
+
+.inner_main_menu ul li {
+    float: none;
+    display: inline-block;
+}
+
+.inner_main_menu ul li:nth-child(1) {
+    float: left;
+}
+
+.inner_main_menu ul li:nth-child(2) {
+    float: left;
+}
+
+.inner_main_menu ul li:nth-child(3) {
+    float: left;
+}
+
+.inner_main_menu ul li a {
+    color: white;
+    font-size: 30px;
+    font-family: UVN Hai Ba Trung;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.inner_main_menu ul li a:hover {
+    color: red;
+}
+
+.content8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.khuyenmai1{
+    width: 500px;
+    align-items: center;
+}
+.img-khuyenmai1{
+    width: 400px;
+    height: 230px;
+}
+.img-khuyenmai2{
+    width: 435px;
+    height: 435px;
+}
+
+
+.khuyenmai2{
+    font-family: UVN Hai Ba Trung;
+    font-size: 47px;
+    color: white;
+    text-align: center;
+    width: 500px;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); 
+    
+  }
+  .open-modal{
+    background-color: orange;
+    padding: 5px 10px;
+    margin: 10px 68px;
+    color: white;
+    border: none;
+  }
+  .open-modal:hover{
+    cursor: pointer;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 25% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    background-image: url(../img/anhnen.png);
+   
+  }
+  .close-modal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .close-modal:hover,
+  .close-modal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal.active {
+    display: block;
+  }
+
+    
+  .modal1 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+  .open-modal1{
+    background-color: orange;
+    padding: 5px 10px;
+    margin: 10px 68px;
+    color: white;
+    border: none;
+  }
+  .open-modal1:hover{
+    cursor: pointer;
+  }
+  .close-modal1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+  }
+  .close-modal1:hover,
+  .close-modal1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal1.active {
+    display: block;
+  }
+
+  .modal2 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+  .open-modal2{
+    background-color: orange;
+    padding: 5px 10px;
+    margin: 10px 68px;
+    color: white;
+    border: none;
+  }
+  .open-modal2:hover{
+    cursor: pointer;
+  }
+  .close-modal2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+  }
+  .close-modal2:hover,
+  .close-modal2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal2.active {
+    display: block;
+  }
+
+  .modal3 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+  .open-modal3{
+    background-color: orange;
+    padding: 5px 10px;
+    margin: 10px 68px;
+    color: white;
+    border: none;
+  }
+  .open-modal3:hover{
+    cursor: pointer;
+  }
+  .close-modal3 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+  }
+  .close-modal3:hover,
+  .close-modal3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal3.active {
+    display: block;
+  }
+  .container22{
+    /* background-color: black; */
+    padding: 30px 0px;
+}
+@media screen and (max-width: 768px) {
+    .khuyenmai1{
+        width: 270px;
+        
+    }
+    .container22{
+        
+        width: 270px;
+        font-size: 25px;
+       margin-left: 127px;
+    }
+    .img-khuyenmai1{
+        width: 264px;
+        height: 149px;
+        
+    }
+    .img-khuyenmai2{
+        width: 290px;
+        height: 290px;
+    }
+    
+    .content8{
+        flex-direction: column;
+    }
+    .logo_area {
+        display: none;
+    }
+    .inner_main_menu ul{
+        padding: 0;
+    }
+    .inner_main_menu{
+        width: 380px;
+    }
+    #toggle1{
+        display: flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+    #toggle{
+        display: block;
+        
+    }
+    .logo_are{
+        display: block;
+       
+    }
+    #user-mobile{
+        display: block;
+    }
+    #main-menu1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    nav{
+        display: none;
+    }
+   
+    #user{
+        padding-left: 20px;
+        display: none;
+        padding-right: 20px;
+    }
+   
+    .inner_main_menu ul li:nth-child(1) {
+        float: none;
+    }
+
+    .inner_main_menu ul li:nth-child(2) {
+        float: none;
+    }
+
+    .inner_main_menu ul li:nth-child(3) {
+        float: left;
+    }
+    .item1{
+        flex-direction: column;
+        padding: 20px 0;
+        
+    }
+    .noidung{
+        padding-bottom: 80px;
+    }
+    .content3 {
+        flex-direction: column;
+    }
+    .nen{
+        flex-direction: column;
+    }
+    .anh{
+        display: none;
+    }
+    .video>iframe{
+        width: 300px;
+        height: 200px;
+    }
+    .content4{
+       height: 250px;
+       display: none;
+    }
+    .videoo{
+        display: block;
+        
+    }
+    .anhpho{
+        display: none;
+    }
+    .content5{
+        display: none;
+    } 
+    /* .muahang{
+        display: none;
+    } */
+    .wpb_muahang{
+        display: none;
+    }
+    .content6 {
+        flex-direction: column;
+    }
+    .content7 {
+        flex-direction: column;
+    }
+    .wpb_pho img{
+        width: 390px;
+        height: 402px;
+    }
+    .wpb_pho1 img{
+       display: none;
+    }
+   
+}
+
+.anhpho>img{
+   border-radius: 47px;
+}
+#main_menu {
+    width: 100%;
+    position: relative;
+
+}
+
+.logo_area {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: "";
+    margin-left: -70px;
+    /* display: block; */
+}
+
+#user {
+    display: flex;
+    align-items: center;
+}
+
+.giohang__text {
+    font-size: 15px;
+    color: white;
+}
+
+#giohang__text {
+    font-size: 15px;
+    color: white;
+    padding: 0;
+}
+
+#infor {
+    font-size: 15px;
+    color: white;
+    font-family: UVN Hai Ba Trung;
+}
+
+/* .content2{
+    height: 400px;
+    width: 1600px;
+} */
+.item1 {
+    background-color: rgb(247, 203, 148);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0;
+    align-items: center;
+    text-align: center;
+}
+
+.item2 img {
+    border-radius: 20px;
+}
+
+.tieude {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.6;
+    font-family: UVN Hai Ba Trung;
+
+}
+
+.noidung {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+    display: block;
+    font-family: "Quicksand", sans-serif;
+    padding: 30px 0;
+    padding-bottom: 80px;
+    width: 700px;
+}
+
+.content0 {
+    background-color: rgb(247, 203, 148);
+    
+    padding-top: 50px;
+    padding-bottom: 120px;
+    /* background-image: url(../img/trangtri.png); */
+}
+
+.content3 {
+    display: flex;
+    justify-content: center;
+}
+
+.uudai {
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-radius: 16px;
+    text-align: center;
+    margin: 40px;
+    padding: 30px;
+}
+.wpb_uudai{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.07);
+    /* border-top-right-radius: 50px; */
+    padding: 30px;
+    /* border-bottom-left-radius: 50px; */
+    text-align: center;
+    margin: 40px;
+}
+.wpb_uudai img{
+    margin-bottom: 20px;
+}
+.uudai img {
+    margin: 10px;
+}
+.wpb_title{
+    color: orange;
+    margin-bottom: 10px;
+}
+.wpb_giatri{
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+.wpb_muahang{
+   
+    border-radius: 15px;
+    background-color: orange;
+    padding: 5px 10px;
+    margin: 10px 68px;
+    color: white;
+}
+.wpb_muahang a{
+    text-decoration: none;
+     
+ }
+
+.combo {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+
+.gia {
+    color: orange;
+
+}
+
+.giatri {
+    opacity: 0.5;
+    padding-bottom: 20px;
+}
+
+.muahang {
+    background-color: red;
+    padding: 5px 10px;
+    margin: 10px 68px;
+    color: white;
+    
+}
+ .muahang a{
+    text-decoration: none;
+ }
+.content4 {
+    background-image: url(../img/anhnen.png);
+    height: 462px;
+}
+
+.nen {
+    background-image: url(../img/trangtri2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    text-align: center;
+}
+
+.anh2 {
+    position: relative;
+    top: 50px;
+    padding-left: 30px;
+    width: 266.883px;
+    height: 411px;
+}
+.content7{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wpb_wrapper{
+    display: block;
+    box-sizing: border-box;
+}
+.wpb_div3{
+    color: orange;
+
+    font-size: 25px;
+   
+   padding-top: 30px;
+   text-align: center;
+}
+.wpb_text{
+    margin-bottom: 35px;
+}
+blockquote{
+    background: #f6f6f6;
+    border: 1px solid #ebebeb;
+    border-left: 5px solid #d3ae5f;
+    font-size: 1em;
+    font-style: italic;
+    margin: 40px 0 40px 40px;
+    padding: 30px 45px;
+}
+.text_feedback{
+    font-size: 14px;
+    opacity: 0.8;
+}
+.content6{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.gioithieusp{
+    padding: 10px;
+}
+.wpb_div1{
+    color: orange;
+    font-family: UVN Hai Ba Trung;
+    font-size: 40px;
+   padding-top: 30px;
+}
+.wpb_div2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    opacity: 0.7;
+    line-height: 1.7;
+}
+

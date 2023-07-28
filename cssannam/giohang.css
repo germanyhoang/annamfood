@@ -1,0 +1,133 @@
+@media screen and (max-width: 768px) {
+    .lan3{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .lan1{
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0px;
+    }
+    
+    .tongtien{
+        padding-left: 0px;
+    }
+    .table{
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .lan2{
+        text-align: center;
+        
+    }
+    .dathang{
+        text-align: center;
+    }
+   
+}
+#donhang{
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.thuonghieu{
+    font-size: 30px;
+    line-height: 1.6;
+    font-family: UVN Hai Ba Trung;
+    color: rgb(239,87,39);
+    padding-bottom: 30px;
+    /* padding-right: 130px; */
+}
+.lan input[type=text], select {
+    width: 80%;
+    padding: 14px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+.dathang{
+    background-color: orange;
+    padding: 18px 22px;
+    float: right;
+    font-size: 16px;
+    border: 1px solid orange;
+    margin-top: 30px;
+    border-radius: 4px;
+    color: white;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+  
+}
+.lan3{
+    display: flex;
+   
+}
+.lan2{
+    background-color: rgb(250,250,250);
+    right: 0;
+    padding-left: 50px;
+    padding-top: 100px;
+    border-left: 1 solid #e1e1e1 ;
+    padding-right: 50px;
+ 
+    
+}
+.lan1{
+    padding-top: 80px;
+    /* padding-right: 100px; */
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+table{
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    padding: 0 10px;
+    
+}
+td, th{
+    padding: 3px 7px;
+   
+}
+table td, th{
+    /* border-bottom: 1px solid black;
+    border-collapse: collapse; */
+}
+table thead th{
+    text-align: center;
+}
+.tongtien{
+    font-size: 30px;
+   float: right;
+    font-family: UVN Hai Ba Trung;
+    color: rgb(239,87,39);
+    /* border-bottom: 1px solid black;
+    border-collapse: collapse; */
+    /* padding-left: 350px; */
+  
+
+}
+.vanchuyen{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(150, 145, 145);
+    border-collapse: collapse;
+}
+.phuongthuc{
+    padding: 5px 0;
+    font-size: 30px;
+    font-family: UVN Hai Ba Trung;
+    color: rgb(239,87,39);
+    margin-top: 50px;
+}

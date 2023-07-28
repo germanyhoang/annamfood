@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+ .chiase{
+    flex-direction: column;
+ }
+ .overlay-container{
+    width: 325px;
+    height: 250px;
+    margin-bottom: 50px;
+ }
+ .blog_gioithieusanpham{
+    flex-direction: column;
+   
+}
+.gioithieuspannamfood{
+    width: 100%; 
+}
+.blog_gioithieusanpham img{
+    width: 100%;
+    height: 100%;
+   
+}
+#bl_bot{
+    flex-direction: column;
+}
+
+}
+.blog{
+    background-color: rgb(247, 203, 148);
+}
+.chiase{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 80px;
+    
+}
+.overlay-container{
+    width: 325px;
+    height: 300px;
+    background: #f55 url(../img/blogphobo.jpg);
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+.overlay-container1{
+    width: 325px;
+    height: 300px;
+    background: #f55 url(../img/chiase1.jpg);
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+.overlay-container2{
+    width: 325px;
+    height: 300px;
+    background: #f55 url(../img/blogphocuon.jpg);
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+.overlay-text{
+    background-color: rgba(255, 85, 85, 0.85);
+    padding: 0px 10px;
+    position: absolute;
+    bottom: -51px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    text-decoration: none;
+    color: #fff;
+}
+.overlay-container:hover .overlay-text{
+    bottom: 0;
+    opacity: 1;
+}
+.overlay-container1:hover .overlay-text{
+    bottom: 0;
+    opacity: 1;
+}
+.overlay-container2:hover .overlay-text{
+    bottom: 0;
+    opacity: 1;
+}
+.overlay-title{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.overlay-content{
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.blog_gioithieusanpham{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px ;
+    
+}
+.blog_gioithieusanpham img{
+    border-radius: 47px;
+    
+}
+.gioithieuspannamfood{
+    
+}
+.div1{
+    color: #f86a28;
+    font-family: UVN Hai Ba Trung;
+    font-size: 50px;
+    text-align: center;
+   
+   padding-top: 80px;
+}
+.div2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 19px;
+    opacity: 0.7;
+    font-weight: 600;
+    line-height: 1.9;
+    margin: 10px;
+}
+.div3{
+    color: #f86a28;
+    font-family: UVN Hai Ba Trung;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#bl_mid{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+/* #bl_bot{
+    display: flex;
+   justify-content: center;
+    margin: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    opacity: 0.8;
+    
+    line-height: 1.9;
+ 
+} */
+/* .mid{
+   
+    background-color: #f4f4f2;
+ 
+} */
+.nguyenlieu {
+    /* background-color: #f4f4f2; */
+    max-width: 1170px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    opacity: 0.7;
+    padding-bottom: 10px;
+}
+.container1 {
+    max-width: 1170px;
+   
+    
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+   
+}
+.nguyenlieu ul li {
+    display: flex;
+    margin: 2px 0!important;
+
+  
+}
+.nguyenlieu ul li .ten-nguyenlieu {
+    flex: 0 1 auto;
+    margin: 0;
+    order: 1;
+    position: relative;
+   
+}
+.nguyenlieu ul li .lieuluong {
+    display: flex;
+    align-items: flex-end;
+    flex: 0 1 auto;
+    margin: 0;
+    order: 3;
+    text-align: right;
+    white-space: nowrap;
+    
+}
+.nguyenlieu ul li:after {
+    background-image: radial-gradient(circle,#000 0,#000 24%,hsla(0,0%,100%,0) 25%,hsla(0,0%,100%,0) 100%);
+    background-size: 0.5em 0.5rem;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    content: "";
+    display: block;
+    flex: 1 1 auto;
+    margin: 0 12px 5px;
+    order: 2;
+}
+.maa{
+    font-size: 20px;
+    width: 300px;
+    text-align: left;
+    opacity: 0.6;
+    height: 287px;
+    overflow: visible;
+    color: black;
+}
+.img-area1 img{
+    position: absolute;
+    /* height: 450px; */
+    width: 290px;
+    /* transition:  1s ease-in-out; */
+    /* opacity: 0; */
+    left: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 50px;
+}
+.img-area1{
+    position: relative;
+    height: 184px;
+   
+   
+}
+.ongg{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+   
+}
+.carr{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.07);
+    border-top-right-radius: 50px;
+    padding: 30px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    margin: 40px;
+    display: block;
+    width: 350px;
+}

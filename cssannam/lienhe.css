@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .thongtinlienlac{
+        flex-direction: column;
+    }
+    #tieude>iframe{
+        width: 350px;
+        height: 250px;
+    }
+    .lienhe1{
+        padding-bottom: 20px;
+        font-size: 8px;
+    }
+    .lienhe1>img{
+        width: 70px;
+        height: 70px;
+    }
+   
+    .tieude1{
+        display: none;
+    }
+   
+}
+.contrac{
+    /* background-image: url(../img/anhnen.png); */
+    text-align: center;
+    padding: 60px 0;
+    font-family: UVN Hai Ba Trung;
+    font-size: 25px;
+    color: white;
+    /* background-color: rgb(247, 203, 148); */
+}
+.thongtinlienlac{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(247, 203, 148);
+    
+    
+}
+.container{
+    /* background-color: black; */
+    padding: 30px 0px;
+}
+.thongtinlienlac .container .containerinfo{
+    /* border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px; */
+    padding: 50px 30px;
+}
+.thongtinlienlac .container .containerinfo h2{
+    color: black;
+    font-size: 24px;
+
+}
+.thongtinlienlac .container .containerinfo li{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+.thongtinlienlac .container .containerinfo li span{
+    color: #000;
+    opacity: 0.5;
+    font-size: 20px;
+}
+/*Hiệu Ứng Hover Cho Thẻ Li*/
+.thongtinlienlac .container .containerinfo li:hover span{
+    opacity: 1;
+}
+.thongtinlienlac .container .containerinfo .sci{
+    display:flex;
+}
+.thongtinlienlac .container .containerinfo .sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+.thongtinlienlac .container .containerinfo .sci li a{
+    text-decoration: none;
+    opacity: 0.5;
+    color: #fff;
+    font-size: 32px;
+}
+/*Hiệu Ứng Hover Icon*/
+.thongtinlienlac .container .containerinfo .sci li:hover a{
+    opacity: 1;
+}
+#tieude{
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+}
+.tieude1 {
+    
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contract{
+    text-align: center;
+    font-family: UVN Hai Ba Trung;
+    padding: 60px 10px;
+    /* background-color: rgb(247, 203, 148); */
+    color: black;
+    background-color: #fff;
+}
+.contract1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 47px;
+}
+.noidung1{
+    font-family: "Quicksand", sans-serif;
+}

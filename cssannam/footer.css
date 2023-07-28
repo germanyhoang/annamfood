@@ -1,0 +1,50 @@
+.footer{
+    background: linear-gradient(to left top, rgb(255, 94, 0), yellow);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 20px 0;
+    line-height: 1.6;
+}
+#element_row{
+    display: flex;
+    justify-content: center;
+}
+#ft_top{
+    font-size: 28px;
+   margin-bottom: 8px;
+   color: white;
+   text-align: center;
+}
+#ft_mid{
+    font-size: 20px;
+    opacity: 0.8;
+    margin-bottom: 4px;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.lienket a{
+    padding-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+.lienket a i{
+    font-size: calc(2vw + 2vh);
+}
+
+@media screen and (max-width: 768px) {
+    
+    .col-md-7{
+        padding: 0 20px;
+       
+    }
+    #ft_top{
+        font-size: 25px;
+    }
+    #ft_mid{
+        font-size: 16px;
+    }
+}

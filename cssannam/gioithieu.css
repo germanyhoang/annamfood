@@ -1,0 +1,111 @@
+/* .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+    grid-template-rows: 350px 350px  ;
+    gap: 10px;
+    background-color: rgb(247, 203, 148);
+    padding: 60px  100px; 
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+   */
+  /* .item4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  } */
+  /* .item4 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  } 
+  .item2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  } 
+  .item3 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }  */
+
+.huongdan{
+    background-image: url(../img/anhnen.png);
+    background-repeat: no-repeat;
+   
+}
+.video{
+ display: flex;
+ flex-direction: column;
+ 
+ align-items: center;
+}
+/* .grid-container-mobile{
+  display: none;
+} */
+.nhamay{
+  display: none;
+}
+.container3{
+  white-space:nowrap; 
+  background-color: rgb(247, 203, 148);
+ 
+}
+
+.pic-container3>.pic-row>img {
+width: 561px;
+height: 710px;
+margin-right: 10px;
+margin-left: 10px;
+}
+.pic-container3{
+padding:80px;
+}
+@media screen and (max-width: 768px) {
+  .container3{
+    width:390px;
+    margin: 0 auto;
+    }
+  
+  .pic-container3 {
+      padding: 0px;
+    white-space:nowrap; 
+    overflow:scroll;
+    }
+    .pic-container3>.pic-row>img {
+      width: 390px;
+      height: 551px;
+      margin-right: 0px;
+      margin-left: 0;
+    }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto  ;
+    grid-template-rows: auto ;
+    gap: 10px;
+    background-color: rgb(247, 203, 148);
+    padding: 0px;
+  }
+  .huongdan{
+    display: none;
+  }
+  .item2{
+    display: none;
+  }
+  .item3{
+    display: none;
+  }
+  /* .grid-container-mobile{
+    display: block;
+  } */
+  .nhamay{
+    display: block;
+  }
+  .noidung{
+    width: 350px;
+  }
+  .chitietsanpham-mobile{
+    display: none;
+  }
+}
